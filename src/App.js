@@ -9,13 +9,12 @@ import Contact from "./container/Contact";
 import { AnimatePresence } from "framer-motion";
 import HomeSocialLinks from "./components/HomeSocialLinks";
 import { Socials } from "./utlis/helper";
-import ParticlesContainer from "./container/ParticlesContainer";
 
 const App = () => {
   return (
     <div className="w-full xl:w-[1440px]  lg:py-12 lg:pr-32 py-32 pr-4 px-4">
       {/* particles container */}
-      <ParticlesContainer />
+
       {/* header */}
       <Header />
 
